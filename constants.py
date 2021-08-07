@@ -13,6 +13,14 @@ CAMERA_HEIGHT_PROPERTY: Final = 4
 CAMERA_WIDTH:           Final = 640
 CAMERA_HEIGHT:          Final = 480
 
+CAMERA_FLIP_DIAGONAL:   Final = -1
+CAMERA_FLIP_VERTICAL:   Final = 0
+CAMERA_FLIP_HORIZONTAL: Final = 1
+
+####################################
+## Screen Resolution
+SCREEN_SIZE_WIDTH:      Final = 0
+SCREEN_SIZE_HEIGHT:     Final = 1
 
 ####################################
 ## Hand Points
@@ -51,19 +59,19 @@ Y_POSITION:             Final = 2
 
 ####################################
 ## Colors
-RED:                    Final = (255,0,0)
+BLUE:                   Final = (255,0,0)
 GREEN:                  Final = (0,255,0)
-BLUE:                   Final = (0,0,255)
+RED:                    Final = (0,0,255)
 VIOLET:                 Final = (255,0,255)
 WHITE:                  Final = (255,255,255)
 BLACK:                  Final = (0,0,0)
-YELLOW:                 Final = (255,255,0)
-CYAN:                   Final = (0,255,255)
+CYAN:                   Final = (255,255,0)
+YELLOW:                 Final = (0,255,255)
 SILVER:                 Final = (192,192,192)
 GRAY:                   Final = (128,128,128)
 GREY:                   Final = (128,128,128)
-MAROON:                 Final = (128,0,0)
-NAVY:                   Final = (0,0,128)
+NAVY:                   Final = (128,0,0)
+MAROON:                 Final = (0,0,128)
 TEAL:                   Final = (0,128,128)
 PURPLE:                 Final = (128,0,128)
 
